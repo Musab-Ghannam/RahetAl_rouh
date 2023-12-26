@@ -11,6 +11,7 @@ namespace DAL.Entities
     public class AspNetUser : IdentityUser<Guid>
     {
         public string FirstName { get; set; }
+
         public string LastName { get; set; }
         public status Status { get; set; }
         public UserType UserType { get; set; }
