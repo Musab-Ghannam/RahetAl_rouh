@@ -6,6 +6,7 @@ namespace DAL.Entities;
 public partial class Feedback
 {
     [Key]
+
     public int FeedbackId { get; set; }
     public int? Rating { get; set; }
     public string? Comment { get; set; }
